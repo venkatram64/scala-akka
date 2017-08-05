@@ -17,4 +17,6 @@ object HelloAkka extends App{
   val greeter = system.actorOf(Props[Greeter], "greeter")
 
   greeter ! WhowToGreet("World!")
+
+  system.terminate()
 }
