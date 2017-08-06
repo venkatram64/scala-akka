@@ -98,6 +98,12 @@
             <version>2.4-M3</version>
         </dependency>-->
 
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-remote_2.11 -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_2.11</artifactId>
+            <version>2.5.3</version>
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/org.scalafx/scalafx_2.11 -->
