@@ -1,4 +1,4 @@
-package com.venkat.selection3.fsm
+package com.venkat.section3.fsm
 
 import akka.actor.{Actor, ActorSystem, FSM, Props, Stash}
 import akka.actor.Actor.Receive

@@ -1,9 +1,9 @@
-package com.venkat.selection3.randomrouter
+package com.venkat.section3.randomrouter
 
 import akka.actor.{ActorSystem, Props}
 import akka.routing.RandomGroup
-import com.venkat.selection3.router.Worker.Work
-import com.venkat.selection3.router.{ Worker}
+import com.venkat.section3.router.Worker.Work
+import com.venkat.section3.router.{ Worker}
 
 
 object RandomRounterGroup extends App{

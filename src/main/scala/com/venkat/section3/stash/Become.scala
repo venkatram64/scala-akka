@@ -1,8 +1,8 @@
-package com.venkat.selection3.stash
+package com.venkat.section3.stash
 
 import akka.actor.{Actor, ActorSystem, Props, Stash}
 import akka.actor.Actor.Receive
-import com.venkat.selection3.stash.UserStorage.{Connect, Disconnect, Operation}
+import com.venkat.section3.stash.UserStorage.{Connect, Disconnect, Operation}
 
 case class User(username: String, email: String)
 

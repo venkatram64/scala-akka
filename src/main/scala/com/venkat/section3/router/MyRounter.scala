@@ -1,4 +1,4 @@
-package com.venkat.selection3.router
+package com.venkat.section3.router
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import akka.actor.Actor.Receive

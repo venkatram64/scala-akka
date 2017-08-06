@@ -1,4 +1,4 @@
-package com.venkat.selection3
+package com.venkat.section3
 
 import akka.actor.{Actor, ActorSystem, PoisonPill, Props}
 import akka.actor.Actor.Receive

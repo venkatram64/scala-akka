@@ -1,8 +1,8 @@
-package com.venkat.selection3.bnb
+package com.venkat.section3.bnb
 
 import akka.actor.{Actor, ActorSystem, Props}
 import akka.actor.Actor.Receive
-import com.venkat.selection3.bnb.UserStorage.{Connect, Operation,Disconnect}
+import com.venkat.section3.bnb.UserStorage.{Connect, Operation,Disconnect}
 
 case class User(username: String, email: String)
 

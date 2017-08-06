@@ -111,7 +111,7 @@ object PersistenceFSM extends App{
 
   account ! Operation(10, DR)
 
-  Thread.sleep(2000)
+  Thread.sleep(5000)
   system.terminate()
 
 }
