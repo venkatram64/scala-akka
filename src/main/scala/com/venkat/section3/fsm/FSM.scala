@@ -69,7 +69,7 @@ object FiniteStateMachine extends App{
 
   userStorage ! Disconnect
 
-  Thread.sleep(1000)
+  Thread.sleep(2000)
 
   system.terminate()
 }

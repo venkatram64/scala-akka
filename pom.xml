@@ -128,8 +128,6 @@
             <version>2.5.3</version>
         </dependency>
 
-
-
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence-query-experimental_2.11 -->
        <!-- <dependency>
             <groupId>com.typesafe.akka</groupId>
@@ -144,6 +142,15 @@
             <version>2.5.3</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-testkit_2.11 -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-testkit_2.11</artifactId>
+            <version>2.5.3</version>
+            <scope>test</scope>
+        </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/org.scalafx/scalafx_2.11 -->
         <dependency>
@@ -152,21 +159,17 @@
             <version>8.0.102-R11</version>
         </dependency>
 
-
         <!--<dependency>
           <groupId>org.apache.spark</groupId>
           <artifactId>spark-core_2.11</artifactId>
           <version>2.1.1</version>
-
         </dependency>
 
 
-        &lt;!&ndash; Spark Streaming &ndash;&gt;
-        <dependency>
+         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming_2.11</artifactId>
             <version>2.1.0</version>
-
         </dependency>
 
         &lt;!&ndash; Spark Sql &ndash;&gt;
@@ -214,12 +217,10 @@
             <scope>test</scope>
         </dependency>
 
-
         <!--<dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming-kafka_2.11</artifactId>
             <version>1.6.2</version>
-
         </dependency>
 
         <dependency>
@@ -242,13 +243,11 @@
             <version>${slf4j.version}</version>
         </dependency>
 
-
         <!--<dependency>
             <groupId>org.apache.bahir</groupId>
             <artifactId>spark-streaming-twitter_2.11</artifactId>
             <version>2.1.0</version>
         </dependency>-->
-
 
         <!--<dependency>
             <groupId>org.apache.hbase</groupId>
@@ -270,7 +269,6 @@
         </dependency>-->
 
     </dependencies>
-
 
     <build>
         <plugins>
