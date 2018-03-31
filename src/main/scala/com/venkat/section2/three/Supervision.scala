@@ -12,6 +12,7 @@ object Aphrodite {
   case object RestartException extends Exception
 }
 
+//child
 class Aphrodite extends Actor{
   import Aphrodite._
 
@@ -51,6 +52,7 @@ class Aphrodite extends Actor{
   }
 }
 
+//parent
 class Hera extends Actor{
   import Aphrodite._
 
