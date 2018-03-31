@@ -62,7 +62,7 @@
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.11</artifactId>
-            <version>2.5.0-RC2</version>
+            <version>2.5.9</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-persistence_2.11 -->
@@ -107,12 +107,21 @@
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-stream_2.11 -->
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-stream -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-stream_2.11</artifactId>
-            <version>2.5.3</version>
+            <version>2.5.9</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
+        <dependency>
+            <groupId>org.twitter4j</groupId>
+            <artifactId>twitter4j-stream</artifactId>
+            <version>4.0.3</version>
+        </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-contrib_2.11 -->
         <dependency>
